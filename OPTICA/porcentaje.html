@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora</title>
+  <link rel="stylesheet" type="text/css" href="porcentaje.css">
+</head>
+<body>
+  <h1>Calculadora</h1>
+  
+  <div class="input-container">
+    <label for="numero-input">Ingresa un número:</label>
+    <input type="number" id="numero-input">
+    <button onclick="calcular()" class="button">Calcular</button>
+  </div>
+  
+  <div id="resultado-container" class="hidden">
+    <p id="resultado-multiplicacion"></p>
+    <p id="resultado-treintaporciento"></p>
+    <p id="resultado-final"></p>
+  </div>
+
+  <div class="conter-buttons">
+    <button onclick="agregar()" class="button-a">Agregar</button>
+    <button onclick="editar()" class="button-a">Editar</button>
+    <button onclick="eliminar()" class="button-a">Eliminar</button>
+  </div>
+
+
+
+  <div>
+    <table>
+      <tr>
+        <th>Tipo de lente</th>
+        <th>Diseño</th>
+        <th>Material</th>
+        <th>Precio
+        </th>
+      </tr>
+      <tr>
+        <td>Monofocal</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+        <td>50000</td>
+
+      </tr>
+      <tr>
+        <td>Bifocal</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+        <td>50000</td>
+      </tr>
+      <tr>
+        <td>Progresivo</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+        <td>50000</td>
+      </tr>
+      <tr>
+        <td>Bifocal</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+        <td>50000</td>
+      </tr>
+      <tr>
+        <td>Progresivo</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+        <td>50000</td>
+      </tr>
+      <tr>
+        <td>Monofocal</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+        <td>50000</td>
+      </tr>
+    </table>
+
+  </div>
+  
+  <script src="procentaje.js"></script>
+</body>
+</html>
